@@ -3,9 +3,9 @@
 
 Console.WriteLine("Enter num: ");
 
-i = int.Parsel(Console.Read());
+int a = Convert.ToInt32(Console.Read());
 
-if (i % 2==0)
+if (a % 2==0)
 {
     Console.WriteLine("The number is EVEN");
 }
@@ -13,3 +13,4 @@ else
 {
     Console.WriteLine("The number is ODD");
 }
+
